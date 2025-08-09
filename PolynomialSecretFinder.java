@@ -8,7 +8,6 @@ import org.json.*;
 public class PolynomialSecretFinder {
 
     public static void main(String[] args) throws Exception {
-        // Read JSON file content
         String content = new String(Files.readAllBytes(Paths.get("./input2.json")));
         JSONObject json = new JSONObject(content);
 
